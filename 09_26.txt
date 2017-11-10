@@ -1,0 +1,26 @@
+svn repository learning 
+
+while checking out checkout from a browser window. 
+
+create a maven project first . copy and paste from the 5 minute website. 
+2. then commpile get into directory and then > mvn clean install -Dmaven.text.skip=true
+3. if build is successfull then create a eclipse file mvn eclipse:eclipse 
+
+4. then add a folder from the torteise svn repository 
+5. but target , .class and .project should not be added so we need to add them to the ignore list. 
+         so we have to ignore them. how to ignore is right click the folder and torteise svn and the nadd to 
+the ignore list.
+6. now we have ignored the files. now to check in we have to commit the folder write the 
+comment and then check the files that you are checking in. 
+7. now it should be in svn repository. 
+
+note: inside the repo browser you need to be able to see the files. with the pom.xml files 
+
+ 
+note : 
+      make a directory create a folder add to the repository and then commit.
+
+install oracle sql developer and oracle. 
+
+ 
+

@@ -1,0 +1,7 @@
+http://meetingwords.com/gk
+
+
+junit and mockito are the main important topic
+
+
+inorder to test they use emma to acheive 100 percent 

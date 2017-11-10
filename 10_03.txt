@@ -1,0 +1,7 @@
+my-app in the eclipse is the app for oracle project. 
+under com.cuboc.app there is jpaconnection
+
+
+name query one to one and one to many listener 
+
+create a table with different fields. 

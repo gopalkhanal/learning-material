@@ -1,0 +1,15 @@
+in mac windows key is the right command 
+
+ctrl + d = deletes whole line 
+ctrl + Shift + s = saves all 
+Ctrl + shift + o = imports anything needed
+Ctrl+shift + m = imports specific 
+ctrl + shift + f = formats the code 
+ctrl + shift + l = will display the shortcuts and many more in dropdown 
+
+shift + fn + left = copies to the left of the cursor -- same for right up and down keys 
+ctrl+ alt + down = duplicates the line >>> alt is left option. 
+
+alt+shift+arrows == selects the text in different format 
+
+xml- here shift + left shows you an option. 
