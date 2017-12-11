@@ -1,0 +1,80 @@
+SpringJPA.xml
+
+
+<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+		<property name="username" value="smegopal" />
+		<property name="password" value="Khanal123" />
+	</bean>	
+
+What are beans? 
+             beans are something like an object which are instantiated
+	   Here in this above example an object of class org.apache.commons.dbcp.BasicDataSource
+           is created which is called datasource. It is the 
+              easier way to create an object. 
+
+           container is the bag of objects. where objects are 
+            created. 
+
+          beans are also known as managed objects where you 
+          could add any no of properties to an object.
+
+
+Now, maven dependency and external jars. 
+
+           Here, dependencies are same as external jars. 
+
+Now, external jars and imports difference is
+
+    That is if you add jar, you have to go with whatever 
+      defined in that external jar and the features that jar provides 
+      can't be changed. If you include library project, 
+      you can play with the source code and make changes
+      to the features if you don't want to go with the default
+       features. 
+
+Why pom.xml 
+       for maven dependency. 
+
+What is a API ? 
+          Application Programming Interface. 
+
+	-- printf function has logic inside it. It is also a API. 
+        Api is something like if we used google's sign in to sign in to our 
+      website then we are using google's signin API to login. we need not to use anything. 
+
+Framework ? 
+
+          is a set of API which you can customize to get the results. so the 
+           job is quicker and easier. They have its own algorithm.
+
+      it is something like a frame. lets say you have a frame and you can add
+      any photos inside it. it is a structure where you fill in the blanks. 
+
+ 
+Dependency Injection ? 
+
+          concept of injecting object inside a car like engine and tires which 
+            are provided by spring framework is known as dependency injection. 
+
+       lets say company is building a car then they can buy tires from someone 
+      else to speed up the builting process. Here the providers is either spring 
+      bean factory or application context. concept of injecting object into 
+        an application is called dependency injection . 
+
+Dependecy in terms of class is 
+
+        in a main class object maynot be instantiated instead can be injected 
+       from other class like database. for which you dont need to create a class
+
+like when building car you can instantiate tire class without having a tire class.
+
+
+
+
+
+
+        
+

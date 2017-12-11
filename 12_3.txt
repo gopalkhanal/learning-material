@@ -1,0 +1,23 @@
+spring boot and rest 
+
+put post delete and get methods. 
+
+status code ranges from 
+
+100 to 199 --- acknowldgement --- means i got it . does not mean it succses.
+
+200 to 299 -------- successs means good news ------- need for us  
+
+300 - 399-----------sever has moved
+
+400 - 499 ----- client errors  -------------need for us  
+
+500 - 599 ------ server error --------------- need for us 
+
+
+svn branching  3 imp things 
+
+trunk ------- main project is in the trunk .1.0 snapshot is the starting vrsion. or any 
+              kind of naming. lets assume 1.0 snapshot. detailed in copy 
+branch ------ 
+tag 

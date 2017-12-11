@@ -1,0 +1,55 @@
+UML 
+
+Unified Modeling language 
+
+1. there are diagrams for network team. There is diagrams for development team. 
+
+1. UseCase Diagram 
+2. Class Diagram 
+3. Sequence Diagram 
+4. Collabration Diagram 
+5. state chart diagram 
+6. Deployment diagram 
+7. Component Diagram 
+
+class and sequence diagram are the two most important diagram 
+
+Uce case diagram is used by business department. Each use case is represented by oval case 
+   diagram. for eg google it of flight reservation. 
+    
+   
+Business team also uses sequence diagram. 
+
+Class Diagram is the imp for IT. 
+
+     1. Assosiation --- two classes are assisiated with each other.  
+     2. Dependency  --- means you are dependent on that class . very clearly implement which
+                        is the dependent relation. 
+     3. Generalization -- inheriting the class. any inherited calsses are generalization 
+     4. realization ------ implementing the interace 
+     5. Aggregation -----  course has a list of students it is a collection 
+     6. composition -----  college has multiple department. this is  composition because depa
+			rtment cannot exist without college. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+jms you can send 5 different types of messages. 
+1. text
+2. bytes
+3. object 

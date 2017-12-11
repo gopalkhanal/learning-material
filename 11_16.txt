@@ -1,0 +1,46 @@
+- Java Messaging Service - 
+
+        Asynchronous
+        2 JMS ways
+        1) Queue (Point to Point) (FIFO)
+                - Sender -> Queue -> Receiver
+                a) Durable Queues (Persistent) 
+                        i) one receiver
+                        ii) multiple receivers
+                b) Non-Durable Queues (Non-Persistent)
+
+        2) Topic
+                Publisher -> TOPIC -> Subscriber (Pub/Sub)
+                                     i) Durable Subscriber (a copy of msg is saved for all subscribers)
+                                    ii) Non-Durable Subscriber (messages are dropped if no subscribers is listening)
+
+        QOS -> Quality of Service
+                3 Layers of Service - a) 0
+                                      b) 1
+                                      c) 2
+        Providers of JMS
+        - IBM MQ
+        - Tibco
+        - Rabbit MQ                                
+        - Solace
+
+        Java Naming and Directory Interface 
+        - get a ConnectionFactory, create a connection, create a session, lookup on the queue, then get the queue, then queue sender to send         
+
+        the connection, then close the connection
+                  
+        - DataSource for database 
+
+        connect to application server, from the QCF pool, get a connection, create
+
+        Session 
+        - AUTO_ACKNOWLEDGE
+        - CLIENT_ACKNOWLEDGE
+        - DUPS--- (Duplicate OK)
+
+        5 types of JMS Messages u can send
+        - TextMessage
+        - ByteMessage
+        - ObjectMessage
+        - MapMessage
+        - StreamMessage
