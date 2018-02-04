@@ -1,0 +1,13 @@
+MOngodb 
+
+ -- installation guide easiest follow - thenewboston on youtube 
+ --  inserting and quesry syntax --- from offilicial website 
+ 
+ https://docs.mongodb.com/manual/tutorial/query-documents/    
+ 
+ all syntax here . 
+ 
+ mongodb .   --- mysql terms 
+collections -- table 
+document - row 
+field - column 
